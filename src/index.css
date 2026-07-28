@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0d1b3e;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Constrain font weight utilities (Montserrat only ships 400,600,700,800,900) */
+.font-heading.font-thin,
+.font-heading.font-extralight,
+.font-heading.font-light,
+.font-heading.font-normal,
+.font-heading.font-medium,
+.font-heading.font-semibold,
+.font-heading.font-bold,
+.font-heading.font-extrabold,
+.font-heading.font-black {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hover scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1b3e;
+}
+::-webkit-scrollbar-thumb {
+  background: #8daa1a;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8c629;
+}
+
+/* Smooth reveal animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fadeUp 0.6s ease-out forwards;
+}
