@@ -3,7 +3,7 @@ const IMAGES = [
   { src: '/images/Image_3.png', alt: 'Pool with water feature wall and tropical landscaping' },
   { src: '/images/Image_4.png', alt: 'Pool with illuminated water feature and outdoor dining at night' },
   { src: '/images/Image_5 copy.png', alt: 'Pool at sunset with timber deck and lush garden lighting' },
-  { src: '/images/Image_6.png', alt: 'Pool with glass fencing and outdoor entertaining at dusk' },
+  { src: '/images/public/images/496238857_1282621497201535_1546139421524957870_n.jpg', alt: 'Pool with glass fencing and outdoor entertaining at dusk' },
   { src: '/images/Image_7.png', alt: 'Pool with water feature and illuminated garden at twilight' },
 ];
 
