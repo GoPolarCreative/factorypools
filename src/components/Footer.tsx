@@ -70,9 +70,9 @@ export default function Footer() {
             <h4 className="font-heading font-bold text-sm uppercase tracking-wide mb-4 text-lime-400">Contact</h4>
             <ul className="space-y-3">
               <li>
-                <a href="tel:1800979764" className="flex items-start gap-3 text-white/60 hover:text-lime-400 transition-colors">
+                <a href="tel:1800 983 997" className="flex items-start gap-3 text-white/60 hover:text-lime-400 transition-colors">
                   <Phone size={16} className="text-lime-400 mt-0.5 flex-shrink-0" />
-                  <span className="font-body text-sm">1800 979 764</span>
+                  <span className="font-body text-sm">1800 983 997</span>
                 </a>
               </li>
               <li>
