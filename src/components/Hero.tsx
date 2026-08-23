@@ -57,11 +57,11 @@ export default function Hero() {
                 <ChevronRight size={18} />
               </button>
               <a
-                href="tel:1800979764"
+                href="tel:1800983997"
                 className="border-2 border-white/50 hover:border-lime-400 text-white hover:text-lime-400 font-heading font-bold uppercase tracking-wide px-8 py-4 rounded flex items-center gap-2 transition-all duration-200"
               >
                 <Phone size={18} />
-                1800 979 764
+                1800 983 997
               </a>
             </div>
           </div>
@@ -70,10 +70,10 @@ export default function Hero() {
           <div id="quote-form" className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8">
             <QuoteForm />
             <div className="mt-5 pt-5 border-t border-gray-100 grid grid-cols-2 gap-3">
-              <a href="tel:1800979764" className="flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white rounded-lg px-3 py-2.5 transition-colors">
+              <a href="tel:1800 983 997" className="flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white rounded-lg px-3 py-2.5 transition-colors">
                 <Phone size={16} className="text-lime-400 flex-shrink-0" />
                 <div>
-                  <div className="font-heading font-bold text-xs">1800 979 764</div>
+                  <div className="font-heading font-bold text-xs">1800 983 997</div>
                   <div className="text-white/60 text-xs font-body">Call us now</div>
                 </div>
               </a>
