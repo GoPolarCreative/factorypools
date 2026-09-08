@@ -21,13 +21,13 @@ export default function Contact() {
             </p>
 
             <div className="space-y-5">
-              <a href="tel:1800 983 997" className="group flex items-center gap-4 bg-navy-800/50 hover:bg-navy-800 border border-navy-700 rounded-xl p-4 sm:p-5 transition-all min-w-0">
+              <a href="tel:1800 983 887" className="group flex items-center gap-4 bg-navy-800/50 hover:bg-navy-800 border border-navy-700 rounded-xl p-4 sm:p-5 transition-all min-w-0">
                 <div className="w-11 h-11 sm:w-12 sm:h-12 flex-shrink-0 bg-lime-400/10 group-hover:bg-lime-400/20 rounded-xl flex items-center justify-center transition-colors">
                   <Phone size={22} className="text-lime-400" />
                 </div>
                 <div className="min-w-0">
                   <div className="text-white/50 text-xs font-body uppercase tracking-wide">Phone</div>
-                  <div className="text-white font-heading font-bold text-base sm:text-lg">1800 983 997</div>
+                  <div className="text-white font-heading font-bold text-base sm:text-lg">1800 983 887</div>
                 </div>
               </a>
               <a href="mailto:admin@aussiefactorydirectpoolkits.com.au" className="group flex items-center gap-4 bg-navy-800/50 hover:bg-navy-800 border border-navy-700 rounded-xl p-4 sm:p-5 transition-all min-w-0">
