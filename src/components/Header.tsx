@@ -42,9 +42,9 @@ export default function Header() {
       {/* Top bar */}
       <div className="bg-navy-950 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-end items-center gap-6">
-          <a href="tel:1800 983 997" className="flex items-center gap-2 text-white text-sm hover:text-lime-400 transition-colors font-body">
+          <a href="tel:1800 983 887" className="flex items-center gap-2 text-white text-sm hover:text-lime-400 transition-colors font-body">
             <Phone size={14} className="text-lime-400" />
-            <span>1800 983 997</span>
+            <span>1800 983 887</span>
           </a>
           <a href="mailto:admin@aussiefactorydirectpoolkits.com.au" className="flex items-center gap-2 text-white text-sm hover:text-lime-400 transition-colors font-body">
             <Mail size={14} className="text-lime-400" />
@@ -75,17 +75,17 @@ export default function Header() {
             </button>
           ))}
           <a
-            href="tel:1800 983 997"
+            href="tel:1800 983 887"
             className="ml-4 bg-lime-400 hover:bg-lime-300 text-navy-900 font-heading font-bold text-sm uppercase tracking-wide px-5 py-2.5 rounded transition-all duration-200 flex items-center gap-2"
           >
             <Phone size={14} />
-            1800 983 997
+            1800 983 887
           </a>
         </nav>
 
         {/* Mobile menu toggle */}
         <div className="lg:hidden flex items-center gap-3">
-          <a href="tel:1800 983 997" className="bg-lime-400 text-navy-900 p-2 rounded">
+          <a href="tel:1800 983 887" className="bg-lime-400 text-navy-900 p-2 rounded">
             <Phone size={18} />
           </a>
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-navy-900 p-2">
