@@ -28,11 +28,11 @@ export default function QuoteCTA() {
             <ChevronRight size={20} />
           </button>
           <a
-            href="tel:1800 983 997"
+            href="tel:1800 983 887"
             className="border-2 border-white/40 hover:border-lime-400 text-white hover:text-lime-400 font-heading font-bold uppercase tracking-wide px-8 py-4 rounded-lg inline-flex items-center gap-2 transition-all duration-200"
           >
             <Phone size={18} />
-            1800 983 997
+            1800 983 887
           </a>
           <a
             href="mailto:admin@aussiefactorydirectpoolkits.com.au"
